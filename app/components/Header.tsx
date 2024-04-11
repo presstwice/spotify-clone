@@ -54,8 +54,8 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
                     className="text-white" size={35} 
                     />
                     </button>
-                <div
-                className="flex md:hidden gap-x-2 items-center">
+                </div>
+                <div className="flex md:hidden gap-x-2 items-center">
                     <button
                     className="rounded-full 
                     p-2 
@@ -64,7 +64,8 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
                     items-center 
                     justify-center 
                     hover:opacity-75 
-                    transition"
+                    transition
+                    "
                     >
                         <HiHome className="text-black" size={20}/>
                     </button>
@@ -83,7 +84,6 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
                 </div>
                 </div>
             </div>
-        </div>
     );
 }
 
