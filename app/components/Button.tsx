@@ -12,7 +12,6 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(({
 }, ref) => {
     return (
     <button 
-    ref={ref}
     type={type}
     className={twMerge(`
     w-full
