@@ -20,4 +20,3 @@ const Box: React.FC<BoxProps> = ({ children, className }) => {
 };
 
 export default Box;
-
